@@ -3,14 +3,38 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <div class="inlead"><h2 id="opponent-name">Leading Team:</h2></div>
         <div class="container">
-            <div>
-                <h3>HOME</h3>
+
+            <div class="opponent1">
+                <h3 id="opponent-name">HOME</h3>
+                <div class="scoreboard score" id="opponent1-score">0</div> 
             </div>
-            <div>
-                <h3>GUEST</h3>
+
+            <div class="opponent2">
+                <h3 id="opponent-name">GUEST</h3>
+                <div class="scoreboard score" id="opponent2-score">0</div>
             </div>
         </div>
+        
+        <div class="points">
+            <div class="points-opponent1">
+                <button id="opponent1-point-1">+1</button>
+                <button id="opponent1-point-2">+2</button>
+                <button id="opponent1-point-3">+3</button>
+            </div>
+
+            <div class="points-opponent2">
+                <button id="opponent2-point-1">+1</button>
+                <button id="opponent2-point-2">+2</button>
+                <button id="opponent2-point-3">+3</button>
+            </div>
+        </div>
+
+        <div class="new-game">
+            <button id="restartgame">New Game</button>
+        </div>
+
         <script src="index.js"></script>
     </body>
 </html>
